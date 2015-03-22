@@ -1,0 +1,29 @@
+{
+  "version": "0.1",
+  "name": " AnarchistFAQ",
+  "description": "Anarchist FAQ",
+  "launch_path": "/index.html",
+  "fullscreen": "false",
+  "icons": {
+    "128": "/img/anarchism-icon128.gif",
+    "256": "/img/anarchism-icon256.gif"
+  },
+  "developer": {
+    "name": "Vitex Software",
+    "url": "https://vitexsoftware.cz/"
+  },
+  "default_locale": "en",
+  "locales": {
+	"cs": {
+    	    "name" : "ČKOA",
+            "description" : "Často kladené otázky Anarchisty"
+	},
+        "en": {
+	    "name" : "AFAQ",
+    	    "description" : "Frequently asked questions of Anarchist"
+        }
+    },
+    "permissions": {
+        "browser": {}
+    }
+}
