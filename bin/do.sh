@@ -31,4 +31,14 @@ cp -r bower_components/bootstrap/dist/* .
 
 rm -rf bower_components
 
+rm ../afaq.zip
+zip -9 -r --exclude=\*.git\* --exclude=\*nbproject\* --exclude=README.md --exclude=LICENSE --exclude=\*bin\* ../afaq.zip . -x bin nbproject readme.md LICENSE .git
+
+rm *.html
+rm *.gif
+rm css/bootstrap*
+rm js/bootstrap*
+rm js/jquery*
+rm js/npm*
+rm -rf fonts
 
