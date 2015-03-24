@@ -23,7 +23,7 @@ var navbarNavRight = $('<ul class="nav navbar-nav navbar-right">');
 
 $(navbarNavRight).prepend( $('<li><a href="#"  id="nav-next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>')  );
 $(navbarNavRight).prepend( $('<li><a id="nav-exit" href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Exit </a></li>')  );
-//$(navbarNavRight).prepend( $('<li><a href="#">Action C</a></li>')  );
+$(navbarNavRight).prepend( $('<li><a target="_blank" href="https://github.com/Vitexus/Anarchist-FAQ/">Source/GitHub</a></li>')  );
 
 
 var navbarNavLeft = $('<ul class="nav navbar-nav ">');
