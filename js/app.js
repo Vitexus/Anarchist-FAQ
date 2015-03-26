@@ -21,7 +21,14 @@ $(navbarHeader).prepend('<a class="navbar-brand" href="index.html"><img style="m
 var navbarCollapse = $('<div class="collapse navbar-collapse" id="afaq-navbar-collapse-1">');
 var navbarNavRight = $('<ul class="nav navbar-nav navbar-right">');
 
+$(navbarNavRight).prepend( $('<li><a href="#" id="nav-up">   <span class="glyphicon glyphicon-arrow-up"   aria-hidden="true"></span></a></li>')  );
+$(navbarNavRight).prepend( $('<li><a href="#" id="nav-down"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a></li>')  );
+
+
 $(navbarNavRight).prepend( $('<li><a href="#"  id="nav-next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>')  );
+
+
+
 $(navbarNavRight).prepend( $('<li><a id="nav-exit" href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Exit </a></li>')  );
 $(navbarNavRight).prepend( $('<li><a target="_blank" href="https://github.com/Vitexus/Anarchist-FAQ/">Source/GitHub</a></li>')  );
 
@@ -71,3 +78,9 @@ $('body').prepend('<div style="height: 40px;"></div>'); //4menu
 $("#nav-prev").click( function(){ history.go(-1); }  );
 $("#nav-next").click( function(){ history.go(+1); }  );
 $("#nav-exit").click( function(){ window.close(); }  );
+
+$("#nav-up").click( function(){ $("html, body").animate({ scrollTop: 0 }, "slow"); }  );
+$("#nav-down").click( function(){  $("html, body").animate({ scrollTop: $(document).height() }, "slow"); }  );
+
+
+$(navbarHeader).append( '<span id="pageTitle">' +  $("title").html() + '</span>' ); //Show Page title

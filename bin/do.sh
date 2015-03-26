@@ -11,7 +11,7 @@ cp html/*.* ../..
 cd ../..
 rm -rf tmp
 
-headTags='<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta Xname="viewport" content="width=device-width, initial-scale=1">'
+headTags='<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">'
 
 headerInc='<link href="css/bootstrap.min.css" rel="stylesheet"><link href="css/afaq.css" rel="stylesheet">';
 footerInc='<script src="js/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script type="text/javascript" src="js/app.js"></script>';

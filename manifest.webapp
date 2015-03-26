@@ -4,6 +4,7 @@
   "description": "Anarchist FAQ",
   "launch_path": "/index.html",
   "fullscreen": "false",
+  "type": "privileged",
   "icons": {
     "128": "/img/anarchism-icon128.gif",
     "256": "/img/anarchism-icon256.gif"
