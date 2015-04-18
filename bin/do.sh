@@ -7,9 +7,18 @@ mkdir tmp
 cd tmp
 apt-get source anarchism
 cd anarchism-*
+
+cd html
+for html in *.html; do
+    echo tidy: $html
+    tidy -c -m -f ../errors$html  $html 
+done
+cd ..
+
 cp html/*.* ../..
 cd ../..
 rm -rf tmp
+#exit
 
 headTags='<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">'
 
@@ -35,9 +44,9 @@ rm -rf bower_components
 rm -f ../afaq.zip
 zip -9 -r --exclude=\*.git\*  --exclude=\screenshot\*.\*  --exclude=\*nbproject\* --exclude=README.md --exclude=LICENSE --exclude=\*bin\* ../afaq.zip . -x bin nbproject readme.md LICENSE .git
 
-#CleanUP
-exit
+#exit
 
+#CleanUP
 rm *.html
 rm *.gif
 rm css/bootstrap*

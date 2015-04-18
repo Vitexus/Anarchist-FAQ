@@ -1,10 +1,9 @@
 {
-  "version": "0.1",
-  "name": " AnarchistFAQ",
-  "description": "Anarchist FAQ",
+  "version": "0.3",
+  "name": "ⒶFAQ",
+  "description": "This app holds an anarchist FAQ. Its aim is to present what anarchism really stands for and indicate why you should become an anarchist. ",
   "launch_path": "/index.html",
   "fullscreen": "false",
-  "type": "privileged",
   "icons": {
     "128": "/img/anarchism-icon128.gif",
     "256": "/img/anarchism-icon256.gif"
@@ -16,15 +15,12 @@
   "default_locale": "en",
   "locales": {
 	"cs": {
-    	    "name" : "ČKOA",
+    	    "name" : "ČKOⒶ",
             "description" : "Často kladené otázky Anarchisty"
 	},
         "en": {
-	    "name" : "AFAQ",
+	    "name" : "ⒶFAQ",
     	    "description" : "Frequently asked questions of Anarchist"
         }
-    },
-    "permissions": {
-        "browser": {}
     }
 }
