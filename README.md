@@ -8,6 +8,8 @@ An Anarchist FAQ
 You need run it under debian or ubuntu with [bower](http://bower.io/) installed to successful build.
 The Tidy project is used to fix some errors html in pages.
 
+Ready to [install to your Firefox](https://marketplace.firefox.com/app/anarchistfaq/) on Firefox Marketplace.
+
 Screenshots
 ___________
 ![screenshot 1](https://raw.githubusercontent.com/Vitexus/Anarchist-FAQ/master/img/screenshot1.png)
